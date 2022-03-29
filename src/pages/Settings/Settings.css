@@ -1,0 +1,82 @@
+.settings {
+    display: flex;
+}
+
+.settingsWrapper {
+    flex: 9;
+    padding: 20px;
+}
+
+.settinsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: lightcoral;
+}
+
+.settingsDaleteTitle {
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingsPP>img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.settingsPPIcon {
+    width: 40px;
+    height: 40px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.settingsForm>label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm>input {
+    color: gray;
+    height: 30px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settingsButton {
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
